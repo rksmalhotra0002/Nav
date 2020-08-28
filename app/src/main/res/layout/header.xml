@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="180dp">
+
+<ImageView
+    android:id="@+id/iv_profile_image"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:scaleX=".8"
+    android:scaleY=".8"
+    android:src="@drawable/p2"
+    />
+
+ <TextView
+     android:id="@+id/tv_name"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:textAlignment="center"
+     android:textSize="14sp"
+     android:textColor="@android:color/black"
+     android:fontFamily="@font/poppinsregular"
+     android:text="@string/shubham_malhotra"
+     />
+
+<TextView
+    android:id="@+id/tv_email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:textColor="@android:color/black"
+    android:textSize="14sp"
+    android:fontFamily="@font/poppinsregular"
+    android:text="@string/rks_malhotra0002_gmail_com"
+    />
+
+</LinearLayout>
